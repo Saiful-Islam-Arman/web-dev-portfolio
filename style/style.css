@@ -26,6 +26,22 @@
     font-size: 16px;
 }
 
+.section-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #181818;
+    line-height: 18px;
+}
+
+.section-description{
+    font-size: 16px;
+    color: #757575;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 /* button style */
 .btn-primary{
     background-color: #FD6E0A;
@@ -111,3 +127,32 @@
 .banner-profile-pic{
     max-width: 580px;
 }
+
+/* main section design */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section design */
+.about{
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 80px 130px;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    color: #757575;
+}
+
+.item-description{
+    font-weight: bold;
+    color: #474747;
+}
+
