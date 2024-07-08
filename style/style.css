@@ -239,3 +239,32 @@
     justify-content: space-around;
     text-align: center;
 }
+
+/* footer section style */
+footer{
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 80px 190px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-col{
+    width: 45%;
+
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 40px;
+    border: none;
+    background-color: white;
+    color: #757575;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+
+
